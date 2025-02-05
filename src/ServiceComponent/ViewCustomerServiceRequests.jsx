@@ -261,11 +261,11 @@ const ViewCustomerServiceRequests = () => {
                   <th scope="col">Category</th>
                   <th scope="col">Sub-Category</th>
                   <th scope="col">Shop Name</th>
-                  <th scope="col">Tech Expert</th>
+                  <th scope="col">Photographer</th>
                   <th scope="col">Requirement</th>
                   <th scope="col">Requirement File</th>
                   <th scope="col">Status</th>
-                  <th scope="col">Expert Response</th>
+                  <th scope="col">Photographer Response</th>
                 </tr>
               </thead>
               <tbody>

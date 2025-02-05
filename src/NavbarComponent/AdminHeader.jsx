@@ -135,7 +135,7 @@ const AdminHeader = () => {
               class="nav-link active"
               aria-current="page"
             >
-              <b className="text-color">View Tech Experts</b>
+              <b className="text-color">View Photographers</b>
             </Link>
           </li>
           <Link

@@ -19,6 +19,7 @@ import ViewExpertServiceRequests from "./ServiceComponent/ViewExpertServiceReque
 import ViewAllServices from "./ServiceComponent/ViewAllServices";
 import ViewAllServiceRequests from "./ServiceComponent/ViewAllServiceRequests";
 import Footer from "./NavbarComponent/Footer";
+// import About from "./NavbarComponent/About";
 function App() {
   return (
     <div>
@@ -90,6 +91,10 @@ function App() {
           path="/admin/service/request/all"
           element={<ViewAllServiceRequests />}
         />
+        {/* <Route
+          path="/adboutus"
+          element={<About />}
+        /> */}
       </Routes>
     <Footer/>
     </div>

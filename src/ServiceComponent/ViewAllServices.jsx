@@ -121,7 +121,7 @@ const ViewAllServices = () => {
                   <th scope="col">Service Package Name</th>
                   <th scope="col">Description</th>
                   <th scope="col">Shop Name</th>
-                  <th scope="col">Tech Expert</th>
+                  <th scope="col">Photographer</th>
                   <th scope="col">Category</th>
                   <th scope="col">Sub-Category</th>
                   <th scope="col">work Time</th>

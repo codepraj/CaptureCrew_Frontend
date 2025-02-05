@@ -293,7 +293,7 @@ const ViewExpertServiceRequests = () => {
                   <th scope="col">Requirement</th>
                   <th scope="col">Requirement File</th>
                   <th scope="col">Status</th>
-                  <th scope="col">Expert Response</th>
+                  <th scope="col">Photographer Response</th>
                 </tr>
               </thead>
               <tbody>

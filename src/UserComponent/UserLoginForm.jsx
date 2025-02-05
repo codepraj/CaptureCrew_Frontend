@@ -132,7 +132,7 @@ const UserLoginForm = () => {
                   >
                     <option value="0">Select Role</option>
                     <option value="Admin"> Admin </option>
-                    <option value="Tech Expert"> Tech Expert </option>
+                    <option value="Tech Expert"> Photographer </option>
                     <option value="Customer"> Customer </option>
                   </select>
                 </div>

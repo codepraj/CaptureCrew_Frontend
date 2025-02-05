@@ -75,25 +75,11 @@ const Footer = () => {
 
                   <ul class="list-unstyled mb-0">
                     <li>
-                      <a href="#!" class="text-color">
-                        Link 1
+                      <a href="http://localhost:3000/aboutus" class="text-color">
+                        About
                       </a>
                     </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 2
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 3
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" class="text-color">
-                        Link 4
-                      </a>
-                    </li>
+                   
                   </ul>
                 </div>
 
@@ -185,13 +171,13 @@ const Footer = () => {
             <section class="">
   <p class="d-flex justify-content-center align-items-center">
     <span class="me-3 text-color">Copyright 2024</span>
-    <a href="http://www.codewitharrays.in" target="_blank" class="active">
+    <a href="#" target="_blank" class="active">
       <button
         type="button"
         class="btn btn-rounded  text-white"
         style={{backgroundColor:"#AA336A"}}
       >
-        CodeWithArrays
+        CaptureCrew
       </button>
     </a>
   </p>

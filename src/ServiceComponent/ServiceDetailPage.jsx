@@ -232,7 +232,7 @@ const ServiceDetailPage = () => {
                       </p>
 
                       <b>
-                        <span className="text-dark">Tech Expert:</span>
+                        <span className="text-dark">Photographer:</span>
                         <span className="text-color ms-2">
                           {service.techExpert.firstName +
                             " " +

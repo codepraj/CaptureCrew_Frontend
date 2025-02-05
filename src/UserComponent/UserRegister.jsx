@@ -135,7 +135,7 @@ const UserRegister = () => {
             <h5 className="card-title">
               Register{" "}
               {document.URL.indexOf("tech-expert") !== -1
-                ? "Photo Studio tech-expert"
+                ? "Photo Studio"
                 : "Customer"}{" "}
               Here!
             </h5>
