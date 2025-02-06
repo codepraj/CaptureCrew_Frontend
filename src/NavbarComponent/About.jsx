@@ -1,62 +1,71 @@
-import React from 'react';
-import '../static/About.css';
-import computer from "../images/computer.png";
-import target from "../images/target.png";
-import confued from "../images/confused.png";
+// import React from 'react';
+// import '../static/About.css';
+// import computer from "../images/computer.png";
+// import target from "../images/target.png";
+// import confued from "../images/confused.png";
 
-function About() {
-    return (
-        <>
-            <main role="main">
-           
-                <div className="container about_text">
-                <hr />
-                    <div className="row">
-                        <div className="col-md-4  ">
-                            <div className="text-center mt-2">
-                                <img src={computer} alt={"Logo"} className="bd-placeholder-img  " width="140" height="140" />
-                                <h2>Vision</h2>
-                            </div>
-                            <p className="justify">To be the leading online retailer for product or service by providing our customers with an exceptional shopping experience that is convenient, affordable, and reliable.
-                            This vision statement is clear, concise, and aspirational... 
-                            It tells your customers what you want to achieve and how you plan to do it. It is also specific enough to give you a roadmap for success, but general enough to allow for flexibility and growth.
-                            </p>
+import React from "react";
+import '../css/AboutUs.css';
 
-                        </div>
-                        <div className="col-md-4  ">
-                            <div className="text-center mt-2">
-                                <img src={target} alt={"Logo"} className="bd-placeholder-img " width="140" height="140" />
-                                <h2>Mission</h2>
-                            </div>
-                            <p className="justify">To provide our customers with the best possible shopping experience by offering a wide selection of high-quality products, competitive prices, and excellent customer service.
+const teamMembers = [
+  { name: "John Doe", image: "john.jpg", role: "Backend Developer" },
+  { name: "Jane Smith", image: "jane.jpg", role: "Frontend Developer" },
+  { name: "Michael Brown", image: "michael.jpg", role: "UI/UX Designer" },
+  { name: "Emily Davis", image: "emily.jpg", role: "Project Manager" },
+  { name: "David Wilson", image: "david.jpg", role: "Database Administrator" },
+];
 
-                            This mission statement is clear, concise, and focused on the customer. It tells your customers what you are committed to providing them with, and it gives them a reason to shop with you. It is also specific enough to give you guidance in your day-to-day operations, but general enough to allow for flexibility and growth.
-                            </p>
-
-                        </div>
-                        <div className="col-md-4  ">
-                            <div className="text-center mt-2">
-                                <img src={confued} alt={"Logo"} className="bd-placeholder-img" width="140" height="140" />
-                                <h2>Why Us</h2>
-                            </div>
-                            <p className="d-flex justify-content-start">
-                            1.Wide selection of products:- You offer a wide variety of products to choose from, so customers can find what they need. <br />
-
-                            2.Competitive prices:- You offer competitive prices on your products, so customers can save money. <br />
-                            3.Excellent customer service:- You provide excellent customer service, so customers can get help when they need it. <br />
-                            4.Convenient shopping experience:- You make it easy for customers to shop with you, so they can get what they need quickly and easily.
-
-                            </p>
-                        </div>
-                    </div>
-
-                    <hr />
-
-                </div>
-
-            </main>
-        </>
-    );
-}
+const About = () => {
+  return (
+    <div className="about-container">
+      <h1>About CaptureCrew</h1>
+      <p>
+        CaptureCrew is an online photographer booking system designed to connect
+        talented photographers with customers looking for high-quality
+        photography services. Our goal is to make the process of finding and
+        booking a photographer seamless and hassle-free.
+      </p>
+      <p>
+        Our platform offers a wide range of services, including event photography,
+        portrait sessions, commercial shoots, and much more. With an easy-to-use
+        interface and a variety of professional photographers to choose from,
+        CaptureCrew ensures a premium experience for both photographers and clients.
+      </p>
+      <h2>Why Choose CaptureCrew?</h2>
+      <ul>
+        <li>Wide selection of skilled photographers</li>
+        <li>Easy and secure booking process</li>
+        <li>Transparent pricing and reviews</li>
+        <li>Flexible scheduling options</li>
+        <li>Customer support available 24/7</li>
+      </ul>
+      <h2>Our Mission</h2>
+      <p>
+        At CaptureCrew, our mission is to bridge the gap between photographers and clients
+        by providing a seamless, user-friendly platform that ensures quality, professionalism,
+        and ease of access. We believe in empowering photographers by giving them an opportunity
+        to showcase their work and grow their business while making it easier for clients to find
+        the perfect photographer for their needs.
+      </p>
+      <h2>Contact Us</h2>
+      <p>
+        Have questions or need support? Feel free to reach out to us at:
+      </p>
+      <p>Email: support@capturecrew.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+      <p>Follow us on social media for the latest updates and promotions!</p>
+      <h2>Meet Our Team</h2>
+      <div className="team-container">
+        {teamMembers.map((member, index) => (
+          <div key={index} className="team-member">
+            <img src={member.image} alt={member.name} />
+            <h3>{member.name}</h3>
+            <p>{member.role}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default About;
