@@ -1,18 +1,20 @@
 // import React from 'react';
 // import '../static/About.css';
-// import computer from "../images/computer.png";
-// import target from "../images/target.png";
-// import confued from "../images/confused.png";
+ import Prajwal from "../images/prajwal.jpg";
+ import Ananthan from "../images/ananthan.jpeg";
+ import Vishakha from "../images/vishakha.jpeg";
+ import shraddha from "../images/shraddha.jpg";
+
 
 import React from "react";
 import '../css/AboutUs.css';
 
 const teamMembers = [
-  { name: "John Doe", image: "john.jpg", role: "Backend Developer" },
-  { name: "Jane Smith", image: "jane.jpg", role: "Frontend Developer" },
-  { name: "Michael Brown", image: "michael.jpg", role: "UI/UX Designer" },
-  { name: "Emily Davis", image: "emily.jpg", role: "Project Manager" },
-  { name: "David Wilson", image: "david.jpg", role: "Database Administrator" },
+  { name: "Prajwal Dudhe", image: Prajwal, role: "Team Lead + Backend Developer" },
+  { name: "Ananthan R", image: Ananthan, role: "Backend Developer" },
+  { name: "Vishakha Baviskar", image: Vishakha, role: "Frontend Developer" },
+  { name: "Shraddha Sakhare", image: shraddha, role: "Frontend Developer" },
+  { name: "Sushant Kawale", image: "david.jpg", role: "" },
 ];
 
 const About = () => {
@@ -35,7 +37,7 @@ const About = () => {
       <ul>
         <li>Wide selection of skilled photographers</li>
         <li>Easy and secure booking process</li>
-        <li>Transparent pricing and reviews</li>
+        <li>Transparent pricing </li>
         <li>Flexible scheduling options</li>
         <li>Customer support available 24/7</li>
       </ul>
