@@ -3,18 +3,19 @@
  import Prajwal from "../images/prajwal.jpg";
  import Ananthan from "../images/ananthan.jpeg";
  import Vishakha from "../images/vishakha.jpeg";
- import shraddha from "../images/shraddha.jpg";
+ import shraddha from "../images/shraddha.jpeg";
+ import sushant from "../images/sushant.png";
 
 
 import React from "react";
 import '../css/AboutUs.css';
 
 const teamMembers = [
-  { name: "Prajwal Dudhe", image: Prajwal, role: "Team Lead + Backend Developer" },
+  { name: "Prajwal Dudhe", image: Prajwal, role: "Project Lead + Backend Developer" },
   { name: "Ananthan R", image: Ananthan, role: "Backend Developer" },
-  { name: "Vishakha Baviskar", image: Vishakha, role: "Frontend Developer" },
-  { name: "Shraddha Sakhare", image: shraddha, role: "Frontend Developer" },
-  { name: "Sushant Kawale", image: "david.jpg", role: "" },
+  { name: "Vishakha Baviskar", image: Vishakha, role: "API Testing + Frontend Developer" },
+  { name: "Shraddha Sakhare", image: shraddha, role: "API Testing + Frontend Developer" },
+  { name: "Sushant Kawale", image: sushant, role: "Frontend Designer" },
 ];
 
 const About = () => {
@@ -54,7 +55,7 @@ const About = () => {
         Have questions or need support? Feel free to reach out to us at:
       </p>
       <p>Email: support@capturecrew.com</p>
-      <p>Phone: +1 (123) 456-7890</p>
+      <p>Phone: +91 8766815951</p>
       <p>Follow us on social media for the latest updates and promotions!</p>
       <h2>Meet Our Team</h2>
       <div className="team-container">
